@@ -28,8 +28,7 @@ elif eleccion == "6":
 else:
   print("La eleccion que has elegido no coincide con ningun numero")
 
-agenda
-{
+agenda{
 "oscar garcia": "625931706",
 "nabil azariouh": "680624564"
 }
