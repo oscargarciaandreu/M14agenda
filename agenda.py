@@ -28,8 +28,8 @@ else:
 No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
 ###
 def afegir_contacte
-Nombre = input("Nombre:")
-Numero = input("Numero:")
+print(Nombre) Nombre = input("Nombre:")
+print(Numero) Numero = input("Numero:")
     
 agenda =dict
 {
