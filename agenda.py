@@ -8,6 +8,22 @@ print("6.Carregar contactes")
 
 eleccion = input("Escoge una de estas opciones")
 
+if eleccion == "1":
+
+elif eleccion == "2":
+
+elif eleccion == "3":
+
+elif eleccion == "4":
+
+elif eleccion == "5":
+
+elif eleccion == "6":
+
+  break
+else:
+  print("La eleccion que has elegido no coincide con ningun numero")
+
 ###
 No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
 ###
