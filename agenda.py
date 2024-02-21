@@ -8,8 +8,12 @@ print("6.Carregar contactes")
 
 eleccion = input("Escoge una de estas opciones")
 
+###
+No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
+###
 if eleccion == "1":
-
+  nombre=input("Nombre: ")
+  if nombre in agenda
 elif eleccion == "2":
 
 elif eleccion == "3":
@@ -24,14 +28,7 @@ elif eleccion == "6":
 else:
   print("La eleccion que has elegido no coincide con ningun numero")
 
-###
-No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
-###
-def afegir_contacte
-print(Nombre) Nombre = input("Nombre:")
-print(Numero) Numero = input("Numero:")
-    
-agenda =dict
+agenda
 {
 "oscar garcia": "625931706",
 "nabil azariouh": "680624564"
