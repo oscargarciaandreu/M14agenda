@@ -8,6 +8,13 @@ print("6.Carregar contactes")
 
 eleccion = input("Escoge una de estas opciones")
 
+###
+No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
+###
+def afegir_contacte:
+Nombre = input("Nombre:")
+Numero = input("Numero:")
+    
 agenda =dict
 {
 "oscar garcia": "625931706",
