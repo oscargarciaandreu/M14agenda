@@ -2,7 +2,7 @@ def agenda():
   contactes={
     "Nom":"Numero",
     }
-  True = sortir
+  sortir = True
   while(sortir):
       print("MENU AGENDA")
       print("1.Afegir contacte")
@@ -21,17 +21,17 @@ def agenda():
       
       if eleccion == "1":
         print("Menu afegir contacte")
-        nombre=input("Nom: ")
+        Nom=input("Nom: ")
         Numero=input("Número: ")
-        contactes[(Nom)] = numero
-        if Nombre == in contactes:
-        print("Problema al dessar un conctacte ya existent")
+        contactes[(Nom)] = Numero
+        if Nom in contactes:
+          print("Problema al dessar un conctacte ya existent")
       elif eleccion == "2":
         for contacte in contactes:
           for numero in contactes:
             print("Nom | Número")
       elif eleccion == "3":
-      
+        
       elif eleccion == "4":
       
       elif eleccion == "5":
