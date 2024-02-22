@@ -1,10 +1,9 @@
 def agenda():
-  contactes{
-  "oscar garcia": "625931706",
-  "nabil azariouh": "680624564"
-  }
-  sortir = true
-    while(sortir):
+  contactes={
+    "Nom":"Numero",
+    }
+  True = sortir
+  while(sortir):
       print("MENU AGENDA")
       print("1.Afegir contacte")
       print("2.Veure contactes")
@@ -16,16 +15,17 @@ def agenda():
       
       eleccion = input("Escoge una de estas opciones")
       
-      ###
-      No especificamos el input de numero como integro porque esperamos que introduzcan el prefijo
-      ###
+      """
+      No especificamosel input de numero como integro porque esperamos que introduzcan el prefijo
+      """
+      
       if eleccion == "1":
         print("Menu afegir contacte")
         nombre=input("Nom: ")
         Numero=input("Número: ")
         contactes[(Nom)] = numero
-        if Nombre = in contactes:
-          print("Problema al dessar un conctacte ya existent")
+        if Nombre == in contactes:
+        print("Problema al dessar un conctacte ya existent")
       elif eleccion == "2":
         for contacte in contactes:
           for numero in contactes:
