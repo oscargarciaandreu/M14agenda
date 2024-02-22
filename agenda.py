@@ -27,7 +27,7 @@ def agenda():
         if Nom in contactes:
           print("Problema al dessar un conctacte ya existent")
       elif eleccion == "2":
-        
+        print({contactes})
       elif eleccion == "3":
         for contacte in contactes:
           for numero in contactes:
