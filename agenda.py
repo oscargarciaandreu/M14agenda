@@ -25,20 +25,26 @@ def agenda():
         if Nom in contactes:
           print("Problema al dessar un conctacte ya existent")
           continue
-        Numero=input(Numero,contactes[contacte])
+        Numero=input("Numero: ")
         contactes[(Nom)] = Numero
       elif eleccion == "2":
-        print({contactes})
-      elif eleccion == "3":
-        buscar=input ("contacte a cercar: ")
-        print(contactes[buscar])
+        print("Menu veure contactes")
         for contacte in contactes:
           for Numero in contactes:
-            print( Numero, contactes[contacte])
+            print("contacte / numero")
+            print(Numero,contactes[contacte])
+      elif eleccion == "3":
+        print("Menu cerca contactes")
+        buscar=input ("contacte a cercar: ")
+        print(contactes[buscar])
+        if buscar not in contactes:
+          print("El contacte no existeix, dessal en el menu")
+          continue
       elif eleccion == "4":
         eliminar = input("Contacte a eliminar: ")
         if contacte not in contactes:
           print("El contacte no existeig afegeixlo")
+          continue
         del(contactes[eliminar])
-        print("contacte",eliminar,"eliminat amb exit")          
+        print("contacte",eliminar,"eliminat amb exit")    
 agenda()
