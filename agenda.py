@@ -13,7 +13,7 @@ def agenda():
       print("6.Carregar contactes")
       print("7.Sortir")
       
-      eleccion = input("Escoge una de estas opciones")
+      eleccion = input("Escoge una de estas opciones: ")
       
       """
       No especificamosel input de numero como integro porque esperamos que introduzcan el prefijo
